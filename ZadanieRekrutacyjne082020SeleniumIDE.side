@@ -1,0 +1,237 @@
+{
+  "id": "7a4b44f4-e4c5-4e60-bb96-9285249134db",
+  "version": "2.0",
+  "name": "ZadanieRekrutacyjne082020SeleniumIDE",
+  "url": "https://dev-1.clicktrans.pl",
+  "tests": [{
+    "id": "1dc4945e-d1d2-4210-9771-c492b0dadcf2",
+    "name": "Test Pozytywny",
+    "commands": [{
+      "id": "0d099ab0-50e2-46e1-bb76-32d77f829477",
+      "comment": "",
+      "command": "open",
+      "target": "/register-test/courier",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3274c86-fc69-4638-a45d-8c9c4b405d11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a8c49e4-cf3a-4bc1-8126-84aff5a6bf99",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_company_name",
+      "targets": [
+        ["id=user_register_company_name", "id"],
+        ["name=user_register[company][name]", "name"],
+        ["css=#user_register_company_name", "css:finder"],
+        ["xpath=//input[@id='user_register_company_name']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a742522a-c2fb-46ea-9e4d-a79f380ea5eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_register_company_name",
+      "targets": [
+        ["id=user_register_company_name", "id"],
+        ["name=user_register[company][name]", "name"],
+        ["css=#user_register_company_name", "css:finder"],
+        ["xpath=//input[@id='user_register_company_name']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nazwa Firmy"
+    }, {
+      "id": "9e0e3b27-725f-4847-9292-8484df7c5f86",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_register_email",
+      "targets": [
+        ["id=user_register_email", "id"],
+        ["name=user_register[email]", "name"],
+        ["css=#user_register_email", "css:finder"],
+        ["xpath=//input[@id='user_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Tester@mail.com"
+    }, {
+      "id": "c5a4e799-d46f-4a6e-80e9-030052ec98f4",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_register_name",
+      "targets": [
+        ["id=user_register_name", "id"],
+        ["name=user_register[name]", "name"],
+        ["css=#user_register_name", "css:finder"],
+        ["xpath=//input[@id='user_register_name']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Imię Nazwisko"
+    }, {
+      "id": "474a21d6-553a-44e2-aad5-86ba82c8ef64",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_phoneCode",
+      "targets": [
+        ["id=user_register_phoneCode", "id"],
+        ["name=user_register[phoneCode]", "name"],
+        ["css=#user_register_phoneCode", "css:finder"],
+        ["xpath=//select[@id='user_register_phoneCode']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eff6307-5c0d-4fd5-871d-c1a6379d61ff",
+      "comment": "",
+      "command": "select",
+      "target": "id=user_register_phoneCode",
+      "targets": [],
+      "value": "label=(+687) Nowa Kaledonia"
+    }, {
+      "id": "ef7c63d3-68f2-4215-8cfc-55d99e4d90d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(149)",
+      "targets": [
+        ["css=option:nth-child(149)", "css:finder"],
+        ["xpath=//option[@value='687']", "xpath:attributes"],
+        ["xpath=//select[@id='user_register_phoneCode']/option[149]", "xpath:idRelative"],
+        ["xpath=//option[149]", "xpath:position"],
+        ["xpath=//option[contains(.,'(+687) Nowa Kaledonia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1712a4e1-1711-40df-bdc7-2381a87c40cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_phone",
+      "targets": [
+        ["id=user_register_phone", "id"],
+        ["name=user_register[phone]", "name"],
+        ["css=#user_register_phone", "css:finder"],
+        ["xpath=//input[@id='user_register_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ee7032-a778-48f3-b519-a436b3b9eb7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_register_phone",
+      "targets": [
+        ["id=user_register_phone", "id"],
+        ["name=user_register[phone]", "name"],
+        ["css=#user_register_phone", "css:finder"],
+        ["xpath=//input[@id='user_register_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "8370df90-7505-47fd-be6f-f3d3ad05bde2",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_plainPassword",
+      "targets": [
+        ["id=user_register_plainPassword", "id"],
+        ["name=user_register[plainPassword]", "name"],
+        ["css=#user_register_plainPassword", "css:finder"],
+        ["xpath=//input[@id='user_register_plainPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38206fa0-f3a6-4436-83d4-f3fa61831488",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_register_plainPassword",
+      "targets": [
+        ["id=user_register_plainPassword", "id"],
+        ["name=user_register[plainPassword]", "name"],
+        ["css=#user_register_plainPassword", "css:finder"],
+        ["xpath=//input[@id='user_register_plainPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "b12cde34-47a9-41fc-ae0b-f65d47be1ceb",
+      "comment": "",
+      "command": "click",
+      "target": "id=ct-registration-agreements",
+      "targets": [
+        ["id=ct-registration-agreements", "id"],
+        ["css=#ct-registration-agreements", "css:finder"],
+        ["xpath=//div[@id='ct-registration-agreements']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[6]", "xpath:idRelative"],
+        ["xpath=//form/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a729a605-3ca4-4f00-9ac8-4960863dff2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_settings_agreementRegulations",
+      "targets": [
+        ["id=user_register_settings_agreementRegulations", "id"],
+        ["name=user_register[settings][agreementRegulations]", "name"],
+        ["css=#user_register_settings_agreementRegulations", "css:finder"],
+        ["xpath=//input[@id='user_register_settings_agreementRegulations']", "xpath:attributes"],
+        ["xpath=//div[@id='ct-registration-agreements']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a9f3307-a5a3-4510-b114-9e23b636b291",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_settings_agreementPersonalData",
+      "targets": [
+        ["id=user_register_settings_agreementPersonalData", "id"],
+        ["name=user_register[settings][agreementPersonalData]", "name"],
+        ["css=#user_register_settings_agreementPersonalData", "css:finder"],
+        ["xpath=//input[@id='user_register_settings_agreementPersonalData']", "xpath:attributes"],
+        ["xpath=//div[@id='ct-registration-agreements']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f7acb3-6733-4cd8-aaf4-56281b55068f",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_register_submit",
+      "targets": [
+        ["id=user_register_submit", "id"],
+        ["name=user_register[submit]", "name"],
+        ["css=#user_register_submit", "css:finder"],
+        ["xpath=//button[@id='user_register_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='user_register_form']/div[8]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Zarejestruj')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "92b7c810-14cc-4e5a-b289-a05f7e2bfab3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1dc4945e-d1d2-4210-9771-c492b0dadcf2"]
+  }],
+  "urls": ["https://dev-1.clicktrans.pl/"],
+  "plugins": []
+}
